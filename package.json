@@ -1,5 +1,5 @@
 {
-  "name": "fizzbuzz-tcr",
+  "name": "arabic2english",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,10 +9,10 @@
     "test": "mocha -D bdd -R list .",
     "commit": "git add -A; timestamp=$(date \"+%c\") && git commit -m \"TCR @ $timestamp\";",
     "revert": "git reset --hard",
-    "tcr": "npm test && npm run commit || npm run revert"
+    "build": "npm test && npm run commit || npm run revert"
   },
   "keywords": [],
-  "author": "Marcus Hammarberg <marcusoftnet@gmail.com> (http://www.marcusoft.net)",
+  "author": "Mrudula Didde",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
