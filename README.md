@@ -1,3 +1,9 @@
+## Running the project
+1. clone the repo
+2. do npm install
+3. npm run test to see test cases pass
+4. npm run build to run the tests and commit
+
 ## Setting up commands for build
 
     "commit": "git add -A; timestamp=$(date \"+%c\") && git commit -m \"TCR @ $timestamp\";",
