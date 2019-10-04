@@ -7,7 +7,7 @@
     "lint": "standard",
     "pretest": "standard",
     "test": "mocha -D bdd -R list .",
-    "commit": "git add -A; timestamp=$(date \"+%c\") && git commit -m \"TCR @ $timestamp\";",
+    "commit": "git add -A; timestamp=$(date \"+%c\") && git commit -m \"Mrudula @ $timestamp\";",
     "revert": "git reset --hard",
     "build": "npm test && npm run commit"
   },
