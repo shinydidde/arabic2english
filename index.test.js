@@ -1,6 +1,7 @@
 /* global describe, it */
 const assert = require('chai').assert
 const arabic2English = require('.')
+// var converter = require('number-to-words')
 
 describe('Testing', () => {
   it('should work', () => {
@@ -23,5 +24,9 @@ describe('Arabic to English', () => {
 
   it('returns "one thousand" for 1000', () => {
     assert.equal(arabic2English.single(1000), 'one thousand')
+  })
+
+  it('returns "one hundred twenty-three thousand, four hundred fifty-six" for 123456', () => {
+    assert.equal(arabic2English.single(123456), 'one hundred twenty-three thousand, four hundred fifty-six')
   })
 })
