@@ -9,7 +9,7 @@
     "test": "mocha -D bdd -R list .",
     "commit": "git add -A; timestamp=$(date \"+%c\") && git commit -m \"TCR @ $timestamp\";",
     "revert": "git reset --hard",
-    "build": "npm test && npm run commit || npm run revert"
+    "build": "npm test && npm run commit"
   },
   "keywords": [],
   "author": "Mrudula Didde",
